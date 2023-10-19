@@ -11,7 +11,7 @@ import "./App.css";
   const App = () => {
     const [input, setInput] = useState('');
     const [result, setResult] = useState('');
-  
+  //inicio else if
     const handleButtonClick = (value) => {
       if (value === '=') {
         try {
